@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    background: linear-gradient(45deg, #917d45, #917d45);
+    color: #fffd8b;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #0f0f0f;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: #1e3c72;
+    border-radius: 5px;
+}
+
+/* Search Section */
+.search-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#law-search {
+    padding: 10px;
+    width: 80%;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: width 0.4s ease;
+}
+
+#law-search:focus {
+    width: 90%;
+}
+
+/* Law Cards */
+.law-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.law-card {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.law-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #ffcc00;
+}
+
+/* Footer */
+.footer-content {
+    text-align: center;
+    padding: 20px;
+    background-color: #0f0f0f;
+    margin-top: 30px;
+}
+
+.footer-content p {
+    color: #000000;
+}
+p{
+    color: #917d45;
+}
+

@@ -1,0 +1,2073 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Laws - LawGuide</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Style for dropdown functionality */
+        .law-card {
+            margin: 10px 0;
+            border: 1px solid #000000;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .law-card h2 {
+            margin: 0;
+            padding: 10px;
+            background-color: #000000;
+            cursor: pointer;
+        }
+
+        .law-content,
+        .term-content {
+            padding: 10px;
+            display: none;
+        }
+
+        .law-card.active .law-content,
+        .term.active .term-content {
+            display: block;
+        }
+
+        /* Nested dropdown for terms */
+        .term {
+            margin-left: 20px;
+            cursor: pointer;
+        }
+
+        .term h3 {
+            margin: 5px 0;
+            padding: 5px;
+            background-color: #917d45;
+            color: gold; /* Change text color of terms to gold */
+        }
+
+        /* New styles for detailed content under IPC */
+        .law-content {
+            background-color: black; /* Change background of IPC dropdown to black */
+            color: rgb(0, 0, 0); /* Change text color to white for readability */
+            padding: 10px;
+            border-radius: 5px; /* Add some rounding to the corners */
+        }
+
+        .term-content {
+            background-color: #ffffff; /* Change background to dark grey for terms */
+            color: rgb(0, 0, 0); /* Change text color to white for readability */
+            padding: 10px;
+            border-radius: 5px; /* Add some rounding to the corners */
+        }
+
+        .term-content h4 {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="search-section">
+        <input type="text" id="law-search" placeholder="Search for a law section..." onkeyup="filterLaws()">
+    </div>
+
+    <section class="law-list">
+        <!-- Law Sections -->
+        <div class="law-card">
+            <h2>Section 1: Indian Penal Code (IPC)</h2>
+            <p>The **Indian Penal Code (IPC)** is the comprehensive legal framework defining crimes and their punishments in India.</p>
+            
+            <div class="law-content">
+              
+                
+                <!-- Nested dropdown for individual terms -->
+                <div class="term">
+                    <h3>Theft</h3>
+                    <div class="term-content">
+                        <p>Theft refers to the unlawful taking of someone else's property with the intent to permanently deprive them of it. Example: Stealing someone's phone is punishable under this law.</p>
+                        
+                        <!-- Detailed content under Theft -->
+                        <h4>Punishment:</h4>
+                        <ul>
+                            <li>Jail Term: Up to 3 years of imprisonment.</li>
+                            <li>Type of Imprisonment: It can be simple or rigorous, depending on the severity of the theft and the circumstances.</li>
+                            <li>Fine: A fine may also be imposed along with the jail term, although the amount is at the discretion of the court based on the value of the stolen property.</li>
+                            <li>Or Both: In certain cases, both imprisonment and fine can be imposed.</li>
+                        </ul>
+                        
+                        <h4>Court:</h4>
+                        <ul>
+                            <li>Jurisdiction: Theft cases are usually handled by a Magistrate's Court since it is considered a cognizable and non-bailable offense.</li>
+                            <li>First Instance: The matter is usually tried in the Judicial Magistrate First Class (JMFC) or the Metropolitan Magistrate Court, depending on the jurisdiction.</li>
+                            <li>Court of Appeal: In case of an appeal, the case can be taken to a Sessions Court.</li>
+                        </ul>
+                        
+                        <h4>Applicability:</h4>
+                        <p>This punishment applies when the value of the stolen property is not extraordinarily high and the offense is not aggravated (e.g., armed theft or theft in a dwelling).</p>
+                        
+                        <h4>Aggravated Forms of Theft:</h4>
+                        <p>If the theft occurs under more severe conditions, such as housebreaking or armed robbery, the punishment may be higher, with imprisonment potentially extending beyond 3 years (e.g., Section 392 IPC for robbery carries a punishment of 10 years or life imprisonment).</p>
+                    </div>
+                </div>
+                <div class="term">
+                    <h3>Assault</h3>
+                    <div class="term-content">
+                        <p>Assault is an act of inflicting physical harm or unwanted physical contact upon a person. Example: Striking someone without consent falls under assault.</p>
+                        
+                        <!-- Detailed content under Assault -->
+                        <h4>Types of Assault and Punishments:</h4>
+                        <ul>
+                            <li><strong>Simple Assault (Section 351):</strong> Punishment: Up to 3 months of imprisonment or a fine of up to ₹500, or both.</li>
+                            <li><strong>Assault or Criminal Force to Woman with Intent to Outrage Her Modesty (Section 354):</strong> Punishment: 1 to 5 years of imprisonment and/or a fine.</li>
+                            <li><strong>Assault Causing Hurt (Section 319):</strong> Punishment: Up to 1 year of imprisonment or a fine of up to ₹1,000, or both.</li>
+                            <li><strong>Causing Grievous Hurt (Section 320):</strong> Punishment: 3 to 7 years of imprisonment and/or a fine. Grievous hurt involves serious injuries that could lead to permanent disability or serious harm.</li>
+                            <li><strong>Assault on Public Servant (Section 332):</strong> Punishment: 3 years of imprisonment and/or a fine.</li>
+                        </ul>
+
+                        <h4>Court:</h4>
+                        <ul>
+                            <li><strong>Jurisdiction:</strong> Cases of assault are typically tried in a Magistrate's Court, specifically the Judicial Magistrate First Class (JMFC).</li>
+                            <li><strong>Cognizable and Non-bailable:</strong> Assault can be cognizable (arrest without warrant) or non-bailable, depending on the severity and nature of the assault.</li>
+                            <li><strong>Court of Appeal:</strong> In case of an appeal, the case can be escalated to a Sessions Court.</li>
+                        </ul>
+
+                        <h4>Considerations:</h4>
+                        <ul>
+                            <li><strong>Aggravating Factors:</strong> If the assault involves weapons, severe bodily harm, or is directed against vulnerable individuals (like women or children), the penalties can increase significantly.</li>
+                            <li><strong>Defenses:</strong> There can be legal defenses such as self-defense, which may negate liability.</li>
+                        </ul>
+
+                        <h4>Fines:</h4>
+                        <p>The fines can vary significantly based on the nature of the assault and the discretion of the court.</p>
+                    </div>
+                </div>
+                <div class="term">
+                    <h3>Murder</h3>
+                    <div class="term-content">
+                        <h4>Definition:</h4>
+                        <p>Murder (Section 300): The IPC defines murder as an act where a person causes the death of another person with the intention of causing death or with the knowledge that the act is likely to cause death.</p>
+
+                        <h4>Punishment:</h4>
+                        <ul>
+                            <li>Death Penalty or Life Imprisonment: The punishment for murder can be:
+                                <ul>
+                                    <li>Death sentence (capital punishment), or</li>
+                                    <li>Life imprisonment (which can mean imprisonment for the remainder of the person's natural life).</li>
+                                </ul>
+                            </li>
+                            <li>Fine: In addition to imprisonment, the court may also impose a fine.</li>
+                        </ul>
+
+                        <h4>Court:</h4>
+                        <ul>
+                            <li><strong>Jurisdiction:</strong> Murder cases are tried in a Sessions Court, which has the authority to hear serious offenses.</li>
+                            <li><strong>Cognizable and Non-bailable:</strong> Murder is a cognizable offense, meaning police can arrest without a warrant, and it is non-bailable.</li>
+                        </ul>
+
+                        <h4>Aggravating and Mitigating Factors:</h4>
+                        <ul>
+                            <li><strong>Aggravating Factors:</strong> The nature of the crime, premeditation, the method used (e.g., use of weapons), and whether it was committed against vulnerable individuals can lead to harsher sentences, including the death penalty.</li>
+                            <li><strong>Mitigating Factors:</strong> Factors such as provocation, mental illness, or self-defense can potentially lead to lesser charges, such as culpable homicide not amounting to murder under Section 304, which carries a punishment of up to 10 years of imprisonment.</li>
+                        </ul>
+
+                        <h4>Appeals:</h4>
+                        <p>If convicted, the accused can appeal to a High Court and subsequently to the Supreme Court of India if there are grounds for further appeal.</p>
+
+                        <h4>Legal Process:</h4>
+                        <p>The investigation is conducted by the police, and upon completion, the case is presented to the Sessions Court for trial. The process can involve significant legal proceedings, including evidence presentation and witness testimonies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional sections remain unchanged -->
+        <div class="law-card">
+            <h2>Section 2: Legal Rights</h2>
+            <p>All citizens have the right to legal representation and a fair trial.</p>
+            <div class="law-content">
+               
+                <div class="law-card">
+              
+                        
+                        <!-- Nested dropdown for individual terms -->
+                        <div class="term">
+                            <h3>Theft</h3>
+                            <div class="term-content">
+                                <p>Legal rights are the entitlements or protections granted to individuals by law, allowing them to take action or defend themselves in legal matters.  </p>
+                                
+                                <!-- Detailed content under Theft -->
+                                <h4>Punishment:</h4>
+                                <ul>
+                                    <li>Rights of the Victim:
+                                        Right to File a First Information Report (FIR): Victims of theft can lodge an FIR at the nearest police station to initiate a legal investigation.</li>
+                                    <li>Right to Recover Stolen Property: If the stolen property is recovered, the victim has a right to claim it back through a process supervised by the court.
+                                        .</li>
+                                    <li>Right to Compensation: In cases where the theft caused substantial loss or damage, victims may seek compensation through the courts as part of the judgment.</li>
+                                    <li>Or Both: In certain cases, both imprisonment and fine can be imposed.</li>
+                                </ul>
+                                
+                                <h4>Court:</h4>
+                                <ul>
+                                    <li>Jurisdiction: Theft cases are usually handled by a Magistrate's Court since it is considered a cognizable and non-bailable offense.</li>
+                                    <li>First Instance: The matter is usually tried in the Judicial Magistrate First Class (JMFC) or the Metropolitan Magistrate Court, depending on the jurisdiction.</li>
+                                    <li>Right to Remain Silent: The accused has the right to remain silent during the investigation or trial.
+                                        Right to Legal Representation: Every accused has the right to engage a lawyer or be provided one by the court if they cannot afford one.
+                                        Right to Bail: Since theft is a non-bailable offense, the accused has the right to apply for bail, which may be granted depending on the severity of the case and the discretion of the court.
+                                        </li>
+                                </ul>
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="term">
+                            <h3>Assault</h3>
+                            <div class="term-content">
+                                <p>Assault is an act of inflicting physical harm or unwanted physical contact upon a person. Example: Striking someone without consent falls under assault.</p>
+                                
+                                <!-- Detailed content under Assault -->
+                                <h4>Types of Assault and Punishments:</h4>
+                                <ul>
+                                    <li><strong>Simple Assault (Section 351):</strong> Punishment: Up to 3 months of imprisonment or a fine of up to ₹500, or both.</li>
+                                    <li><strong>Assault or Criminal Force to Woman with Intent to Outrage Her Modesty (Section 354):</strong> Punishment: 1 to 5 years of imprisonment and/or a fine.</li>
+                                    <li><strong>Assault Causing Hurt (Section 319):</strong> Punishment: Up to 1 year of imprisonment or a fine of up to ₹1,000, or both.</li>
+                                    <li><strong>Causing Grievous Hurt (Section 320):</strong> Punishment: 3 to 7 years of imprisonment and/or a fine. Grievous hurt involves serious injuries that could lead to permanent disability or serious harm.</li>
+                                    <li><strong>Assault on Public Servant (Section 332):</strong> Punishment: 3 years of imprisonment and/or a fine.</li>
+                                </ul>
+        
+                                <h4>Court:</h4>
+                                <ul>
+                                    <li><strong>Jurisdiction:</strong> Cases of assault are typically tried in a Magistrate's Court, specifically the Judicial Magistrate First Class (JMFC).</li>
+                                    <li><strong>Cognizable and Non-bailable:</strong> Assault can be cognizable (arrest without warrant) or non-bailable, depending on the severity and nature of the assault.</li>
+                                    <li><strong>Court of Appeal:</strong> In case of an appeal, the case can be escalated to a Sessions Court.</li>
+                                </ul>
+        
+                                <h4>Considerations:</h4>
+                                <ul>
+                                    <li><strong>Aggravating Factors:</strong> If the assault involves weapons, severe bodily harm, or is directed against vulnerable individuals (like women or children), the penalties can increase significantly.</li>
+                                    <li><strong>Defenses:</strong> There can be legal defenses such as self-defense, which may negate liability.</li>
+                                </ul>
+        
+                                <h4>Fines:</h4>
+                                <p>The fines can vary significantly based on the nature of the assault and the discretion of the court.</p>
+                            </div>
+                        </div>
+                        <div class="term">
+                            <h3>Murder</h3>
+                            <div class="term-content">
+                                <h4>Definition:</h4>
+                                <p>Murder (Section 300): The IPC defines murder as an act where a person causes the death of another person with the intention of causing death or with the knowledge that the act is likely to cause death.</p>
+        
+                                <h4>Punishment:</h4>
+                                <ul>
+                                    <li>Death Penalty or Life Imprisonment: The punishment for murder can be:
+                                        <ul>
+                                            <li>Death sentence (capital punishment), or</li>
+                                            <li>Life imprisonment (which can mean imprisonment for the remainder of the person's natural life).</li>
+                                        </ul>
+                                    </li>
+                                    <li>Fine: In addition to imprisonment, the court may also impose a fine.</li>
+                                </ul>
+        
+                                <h4>Court:</h4>
+                                <ul>
+                                    <li><strong>Jurisdiction:</strong> Murder cases are tried in a Sessions Court, which has the authority to hear serious offenses.</li>
+                                    <li><strong>Cognizable and Non-bailable:</strong> Murder is a cognizable offense, meaning police can arrest without a warrant, and it is non-bailable.</li>
+                                </ul>
+        
+                                <h4>Aggravating and Mitigating Factors:</h4>
+                                <ul>
+                                    <li><strong>Aggravating Factors:</strong> The nature of the crime, premeditation, the method used (e.g., use of weapons), and whether it was committed against vulnerable individuals can lead to harsher sentences, including the death penalty.</li>
+                                    <li><strong>Mitigating Factors:</strong> Factors such as provocation, mental illness, or self-defense can potentially lead to lesser charges, such as culpable homicide not amounting to murder under Section 304, which carries a punishment of up to 10 years of imprisonment.</li>
+                                </ul>
+        
+                                <h4>Appeals:</h4>
+                                <p>If convicted, the accused can appeal to a High Court and subsequently to the Supreme Court of India if there are grounds for further appeal.</p>
+        
+                                <h4>Legal Process:</h4>
+                                <p>The investigation is conducted by the police, and upon completion, the case is presented to the Sessions Court for trial. The process can involve significant legal proceedings, including evidence presentation and witness testimonies.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="law-card">
+            <h2>Section 3: Fundamental Rights</h2>
+            <p>Fundamental rights ensure the right to equality, freedom, and protection against discrimination.</p>
+            <div class="law-content">
+        
+                            <!-- Nested dropdown for individual terms -->
+                            <div class="term">
+                                <h3>Right to Equality</h3>
+                                <div class="term-content">
+                                    <p>The right to equality ensures that all citizens are treated equally before the law and prohibits discrimination based on religion, race, caste, sex, or place of birth.</p>
+                                    
+                                    <!-- Detailed content under Right to Equality -->
+                                    <h4>Key Provisions:</h4>
+                                    <ul>
+                                        <li><strong>Article 14:</strong> Guarantees equality before the law and equal protection of the laws within India.</li>
+                                        <li><strong>Article 15:</strong> Prohibits discrimination on the grounds of religion, race, caste, sex, or place of birth.</li>
+                                        <li><strong>Article 16:</strong> Guarantees equality of opportunity in matters of public employment.</li>
+                                        <li><strong>Article 17:</strong> Abolishes untouchability and forbids its practice in any form.</li>
+                                    </ul>
+                                    
+                                    <h4>Legal Enforcement:</h4>
+                                    <ul>
+                                        <li>Citizens can approach the courts for the enforcement of these rights through writs such as habeas corpus, mandamus, prohibition, quo warranto, and certiorari.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="term">
+                                <h3>Right to Freedom</h3>
+                                <div class="term-content">
+                                    <p>The right to freedom guarantees certain freedoms to individuals, such as freedom of speech and expression, assembly, and movement.</p>
+                                    
+                                    <!-- Detailed content under Right to Freedom -->
+                                    <h4>Key Provisions:</h4>
+                                    <ul>
+                                        <li><strong>Article 19:</strong> Guarantees six freedoms: freedom of speech and expression, assembly, association, movement, residence, and profession.</li>
+                                        <li><strong>Article 20:</strong> Protects individuals from arbitrary actions in criminal cases.</li>
+                                        <li><strong>Article 21:</strong> Guarantees the protection of life and personal liberty.</li>
+                                        <li><strong>Article 22:</strong> Provides protection against arrest and detention in certain cases.</li>
+                                    </ul>
+                
+                                    <h4>Restrictions:</h4>
+                                    <ul>
+                                        <li>Reasonable restrictions can be imposed in the interests of the sovereignty and integrity of India, public order, decency, or morality.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="term">
+                                <h3>Right Against Exploitation</h3>
+                                <div class="term-content">
+                                    <h4>Key Provisions:</h4>
+                                    <p>The right against exploitation prohibits human trafficking, forced labor, and child labor.</p>
+                
+                                    <ul>
+                                        <li><strong>Article 23:</strong> Prohibits trafficking in human beings, begar (forced labor), and other forms of forced labor.</li>
+                                        <li><strong>Article 24:</strong> Prohibits employment of children below the age of 14 in factories, mines, or other hazardous occupations.</li>
+                                    </ul>
+                
+                                    <h4>Legal Process:</h4>
+                                    <p>Citizens can approach the court to protect their rights if they face exploitation or forced labor, and legal actions will be initiated against violators.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="law-card">
+            <h2>Section 4: Right to Information</h2>
+            <p>Citizens have the right to access information held by public authorities.</p>
+            <div class="law-content">
+                            <!-- Nested dropdown for individual terms -->
+                            <div class="term">
+                                <h3>Right to Information (RTI)</h3>
+                                <div class="term-content">
+                                    <p>The Right to Information Act, 2005, empowers citizens to access information held by public authorities, ensuring transparency and accountability in government institutions.</p>
+                
+                                    <!-- Detailed content under RTI -->
+                                    <h4>How to File an RTI:</h4>
+                                    <ul>
+                                        <li>Submit a Written Application: Citizens can submit a written request to the Public Information Officer (PIO) of the relevant department, specifying the information sought.</li>
+                                        <li>Response Time: The PIO is required to provide the requested information within 30 days of receiving the application. If the information concerns the life or liberty of a person, the response must be given within 48 hours.</li>
+                                    </ul>
+                
+                                    <h4>Fines for Non-Compliance:</h4>
+                                    <ul>
+                                        <li>If a PIO fails to provide the information within the stipulated time or refuses without valid reason, they can be fined ₹250 per day of delay, up to a maximum of ₹25,000.</li>
+                                        <li>Penalty for Misleading Information: Providing false or misleading information can also result in penalties, which may include disciplinary action against the PIO.</li>
+                                    </ul>
+                
+                                    <h4>What to Do:</h4>
+                                    <ul>
+                                        <li>Ensure the RTI application is clear and concise, specifying the exact information you seek.</li>
+                                        <li>Keep a copy of the RTI application and receipt for future reference.</li>
+                                        <li>If the PIO refuses to provide the information or delays, file an appeal with the Appellate Authority or approach the Information Commission.</li>
+                                    </ul>
+                
+                                    <h4>What Not to Do:</h4>
+                                    <ul>
+                                        <li>Do not request personal information unless it involves public interest or is necessary for legal proceedings.</li>
+                                        <li>Avoid vague or overly broad applications; this may lead to delays or rejection.</li>
+                                    </ul>
+                
+                                    <h4>Appeals Process:</h4>
+                                    <ul>
+                                        <li>If unsatisfied with the response or non-receipt of information, you can appeal to the first appellate authority within 30 days.</li>
+                                        <li>If the first appeal is not successful, a second appeal can be filed with the Central or State Information Commission.</li>
+                                    </ul>
+                
+                                    <h4>Exemptions under RTI:</h4>
+                                    <ul>
+                                        <li>Information that affects national security, personal privacy, or is barred by the courts cannot be disclosed under RTI.</li>
+                                        <li>Some government departments, like intelligence agencies, are exempt from providing information, unless the case pertains to allegations of corruption or human rights violations.</li>
+                                    </ul>
+                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="law-card">
+            <h2>Section 5: Citizenship</h2>
+            <p>Citizenship can be granted through registration under certain conditions.</p>
+            <div class="law-content">
+                
+                
+                            <!-- Nested dropdown for individual terms -->
+                            <div class="term">
+                                <h3>Citizenship Rights</h3>
+                                <div class="term-content">
+                                    <p>Citizenship rights are the entitlements that individuals enjoy as citizens of a country. These rights ensure the protection of individuals and allow them to participate in the legal, political, and social life of the country.</p>
+                
+                                    <!-- Detailed content under Citizenship Rights -->
+                                    <h4>Key Rights:</h4>
+                                    <ul>
+                                        <li>**Right to Vote**: Citizens have the right to participate in national, state, and local elections.</li>
+                                        <li>**Right to Public Services**: Citizens can access essential services like healthcare, education, and social benefits.</li>
+                                        <li>**Right to Equality**: All citizens are equal before the law and are entitled to the protection of their rights without discrimination.</li>
+                                        <li>**Freedom of Speech**: Citizens have the right to express their opinions and beliefs, as long as they do not harm public security or infringe on the rights of others.</li>
+                                    </ul>
+                
+                                    <h4>Legal Protections:</h4>
+                                    <ul>
+                                        <li>**Right to Legal Representation**: Every citizen is entitled to a fair trial and the right to hire a lawyer or have one appointed if they cannot afford one.</li>
+                                        <li>**Right to Privacy**: Citizens have the right to privacy in their personal lives and property, protected from unlawful searches or intrusions.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                            <div class="term">
+                                <h3>Citizenship Duties</h3>
+                                <div class="term-content">
+                                    <p>Duties of citizenship require individuals to contribute to the well-being of the country and abide by its laws.</p>
+                
+                                    <!-- Detailed content under Citizenship Duties -->
+                                    <h4>Key Duties:</h4>
+                                    <ul>
+                                        <li>**Obey the Law**: Citizens must follow the laws of the country and respect the legal system.</li>
+                                        <li>**Pay Taxes**: Citizens are required to pay taxes to support public services and the government.</li>
+                                        <li>**Defend the Nation**: In times of national emergency or war, citizens may be called upon to defend the nation.</li>
+                                        <li>**Respect the Rights of Others**: Citizens must respect the rights and freedoms of others and refrain from actions that may harm or discriminate against others.</li>
+                                    </ul>
+                
+                                    <h4>Penalties for Non-Compliance:</h4>
+                                    <ul>
+                                        <li>**Fines**: Citizens who fail to fulfill their duties, such as evading taxes or violating laws, may face fines based on the severity of the offense.</li>
+                                        <li>**Imprisonment**: In cases of serious violations (e.g., treason, violent crimes), citizens may face imprisonment.</li>
+                                        <li>**Loss of Rights**: Certain actions, such as breaking election laws or committing severe offenses, can result in the loss of voting rights or other civil liberties.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                            <div class="term">
+                                <h3>Special Considerations for Naturalized Citizens</h3>
+                                <div class="term-content">
+                                    <h4>Naturalization Process:</h4>
+                                    <p>Individuals who are not born citizens can apply for citizenship through a legal process known as naturalization. This process typically involves fulfilling residency requirements, passing a citizenship test, and taking an oath of allegiance.</p>
+                
+                                    <h4>Duties and Obligations:</h4>
+                                    <ul>
+                                        <li>**Same Rights and Duties**: Once naturalized, individuals enjoy the same rights and are subject to the same duties as natural-born citizens.</li>
+                                        <li>**Revocation of Citizenship**: In cases of fraud or deception during the naturalization process, citizenship may be revoked, leading to deportation or legal consequences.</li>
+                                    </ul>
+                
+                                    <h4>Appeals:</h4>
+                                    <p>Naturalized citizens have the right to appeal in court if they believe their citizenship rights are being violated.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="law-card">
+            <h2>Section 6: Citizenship by naturalization</h2>
+            <p>Conditions under which citizenship can be granted by naturalization are mentioned.</p>
+            <div class="law-content">
+               
+                            <!-- Nested dropdown for individual terms -->
+                            <div class="term">
+                                <h3>Eligibility Criteria</h3>
+                                <div class="term-content">
+                                    <p>Individuals must meet specific requirements to apply for citizenship through naturalization, which may vary depending on the country. In India, the following criteria are necessary:</p>
+                
+                                    <h4>Basic Criteria:</h4>
+                                    <ul>
+                                        <li>Must have resided in India for a continuous period of at least 12 years, including 12 months immediately preceding the application.</li>
+                                        <li>Good character and sound mind, with no criminal record.</li>
+                                        <li>Adequate knowledge of one of the official languages of India.</li>
+                                        <li>Intention to reside in India permanently.</li>
+                                    </ul>
+                
+                                    <h4>Restrictions:</h4>
+                                    <ul>
+                                        <li>Individuals holding allegiance to another state or nation may be denied naturalization.</li>
+                                        <li>Those involved in activities threatening the safety or security of India cannot be naturalized.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                            <div class="term">
+                                <h3>Application Process</h3>
+                                <div class="term-content">
+                                    <p>The application for naturalization involves submitting an official form, along with supporting documents, to the Ministry of Home Affairs.</p>
+                
+                                    <h4>Required Documents:</h4>
+                                    <ul>
+                                        <li>Proof of residence (e.g., utility bills, rental agreements).</li>
+                                        <li>Proof of stay in India (for at least 12 years).</li>
+                                        <li>Character certificate from the local police.</li>
+                                        <li>Language proficiency certificate, if applicable.</li>
+                                    </ul>
+                
+                                    <h4>Application Review:</h4>
+                                    <ul>
+                                        <li>Applications are reviewed by the government, and interviews may be conducted to assess the applicant’s suitability.</li>
+                                        <li>The naturalization process can take several months or even years, depending on the case.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                            <div class="term">
+                                <h3>Rights and Responsibilities</h3>
+                                <div class="term-content">
+                                    <p>Naturalized citizens gain the same rights as citizens by birth but must adhere to the laws and duties of their new country.</p>
+                
+                                    <h4>Rights:</h4>
+                                    <ul>
+                                        <li>Right to vote and participate in political processes.</li>
+                                        <li>Right to hold public office (with certain exceptions).</li>
+                                        <li>Right to social and economic benefits.</li>
+                                        <li>Right to travel using the country’s passport.</li>
+                                    </ul>
+                
+                                    <h4>Responsibilities:</h4>
+                                    <ul>
+                                        <li>Obeying the laws of the country.</li>
+                                        <li>Paying taxes as per the legal requirements.</li>
+                                        <li>Serving the country in various capacities if required (e.g., military service).</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                            <div class="term">
+                                <h3>Penalties and Fines</h3>
+                                <div class="term-content">
+                                    <h4>Grounds for Revocation:</h4>
+                                    <ul>
+                                        <li>Fraudulent acquisition of citizenship can lead to revocation.</li>
+                                        <li>Engaging in illegal or anti-national activities can result in loss of citizenship.</li>
+                                    </ul>
+                
+                                    <h4>Punishments:</h4>
+                                    <ul>
+                                        <li>Deportation: In cases of fraudulent claims, the naturalized individual may face deportation to their home country.</li>
+                                        <li>Imprisonment: Providing false information during the naturalization process can result in imprisonment, varying from 1 to 5 years depending on the severity of the offense.</li>
+                                    </ul>
+                
+                                    <h4>Fines:</h4>
+                                    <ul>
+                                        <li>Monetary fines for providing incorrect information during the application process can range from ₹10,000 to ₹50,000.</li>
+                                        <li>In severe cases of fraud, larger fines may be imposed along with the punishment of deportation or imprisonment.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                            <div class="term">
+                                <h3>Appeals Process</h3>
+                                <div class="term-content">
+                                    <p>If an individual's application is denied or their citizenship is revoked, they have the right to appeal the decision.</p>
+                
+                                    <h4>Steps for Appeal:</h4>
+                                    <ul>
+                                        <li>The appeal must be filed within 30 days of the decision.</li>
+                                        <li>The case will be heard by a higher authority, such as the High Court or the Supreme Court.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="law-card">
+            <h2>Section 7: Rights of citizenship</h2>
+            <p>Rights granted to citizens of India.</p>
+            <div class="law-content">
+                
+                            
+                            <!-- Nested dropdown for individual terms -->
+                            <div class="term">
+                                <h3>Right to Vote</h3>
+                                <div class="term-content">
+                                    <p>Citizens of legal age have the right to participate in elections and vote for their representatives in the government.</p>
+                                    
+                                    <!-- Detailed content under Right to Vote -->
+                                    <h4>Punishments:</h4>
+                                    <ul>
+                                        <li>Voter Fraud: Engaging in fraudulent voting or misrepresentation during elections can lead to imprisonment of up to 5 years and/or a fine.</li>
+                                        <li>Intimidation or Coercion: Any attempt to coerce or intimidate voters to influence their vote is punishable by imprisonment of up to 3 years and/or a fine.</li>
+                                    </ul>
+                                    
+                                    <h4>Do's and Don'ts:</h4>
+                                    <ul>
+                                        <li>Do: Ensure your voter registration is up to date and vote in your assigned polling station.</li>
+                                        <li>Don't: Engage in fraudulent activities, such as double voting or tampering with election equipment.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="term">
+                                <h3>Right to Freedom of Speech</h3>
+                                <div class="term-content">
+                                    <p>Citizens have the right to express their opinions and ideas freely, within the bounds of the law.</p>
+                                    
+                                    <!-- Detailed content under Right to Freedom of Speech -->
+                                    <h4>Punishments:</h4>
+                                    <ul>
+                                        <li>Hate Speech: Using speech to incite violence, hatred, or discrimination can lead to imprisonment of up to 3 years and/or a fine.</li>
+                                        <li>Sedition: Speech that incites rebellion against the state or government can be punished by imprisonment ranging from 3 years to life, depending on the severity.</li>
+                                    </ul>
+                                    
+                                    <h4>Do's and Don'ts:</h4>
+                                    <ul>
+                                        <li>Do: Speak freely, but ensure that your words do not incite violence, hatred, or unlawfulness.</li>
+                                        <li>Don't: Spread misinformation or engage in slander that could harm others or the state.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="term">
+                                <h3>Right to Freedom of Religion</h3>
+                                <div class="term-content">
+                                    <p>Every citizen has the right to practice, profess, and propagate their religion, subject to public order and morality.</p>
+                                    
+                                    <!-- Detailed content under Right to Freedom of Religion -->
+                                    <h4>Punishments:</h4>
+                                    <ul>
+                                        <li>Religious Discrimination: Any act of discrimination or violence based on religion can result in imprisonment of up to 5 years and/or a fine.</li>
+                                        <li>Forcing Conversion: Coercing someone to change their religion is punishable by imprisonment of up to 3 years and/or a fine.</li>
+                                    </ul>
+                                    
+                                    <h4>Do's and Don'ts:</h4>
+                                    <ul>
+                                        <li>Do: Practice your religion peacefully and respect the beliefs of others.</li>
+                                        <li>Don't: Engage in forced conversions or acts that promote religious hatred.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="term">
+                                <h3>Right to Equality</h3>
+                                <div class="term-content">
+                                    <p>All citizens are equal before the law and have the right to equal protection and treatment, without discrimination on the basis of caste, gender, religion, or other factors.</p>
+                                    
+                                    <!-- Detailed content under Right to Equality -->
+                                    <h4>Punishments:</h4>
+                                    <ul>
+                                        <li>Discrimination: Any act of discrimination, such as in employment or education, can lead to penalties, including fines or imprisonment up to 2 years.</li>
+                                        <li>Untouchability: The practice of untouchability is prohibited and can lead to imprisonment of up to 6 months and/or a fine.</li>
+                                    </ul>
+                                    
+                                    <h4>Do's and Don'ts:</h4>
+                                    <ul>
+                                        <li>Do: Treat all individuals equally, regardless of their background or identity.</li>
+                                        <li>Don't: Engage in discriminatory practices or uphold social barriers based on caste, religion, or gender.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="law-card">
+            <h2>Section 8: Duties of citizenship</h2>
+            <p>Duties that every citizen is expected to uphold.</p>
+            <div class="law-content">
+               
+                            <!-- Nested dropdown for individual duties -->
+                            <div class="term">
+                                <h3>Respect for the Law</h3>
+                                <div class="term-content">
+                                    <p>Every citizen must obey the laws of the land, respecting legal procedures and authority. This includes paying taxes, following traffic rules, and maintaining public order.</p>
+                                    
+                                    <!-- Detailed content under Respect for the Law -->
+                                    <h4>Punishment for Non-Compliance:</h4>
+                                    <ul>
+                                        <li><strong>Violation of Traffic Rules:</strong> Fines up to ₹5,000 and/or imprisonment for repeated offenses.</li>
+                                        <li><strong>Tax Evasion:</strong> Penalties include fines, imprisonment up to 7 years, or both, depending on the severity.</li>
+                                        <li><strong>Disturbing Public Order:</strong> Imprisonment up to 6 months or fines, depending on the nature of the disturbance.</li>
+                                    </ul>
+                                    
+                                    <h4>Fines:</h4>
+                                    <p>Fines vary according to the nature of the offense and the discretion of the court.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="term">
+                                <h3>Defending the Nation</h3>
+                                <div class="term-content">
+                                    <p>All citizens are required to defend their country in times of need, which includes military service or contributing to national defense in other capacities during emergencies.</p>
+                                    
+                                    <!-- Detailed content under Defending the Nation -->
+                                    <h4>Punishment for Avoiding National Duty:</h4>
+                                    <ul>
+                                        <li><strong>Dodging Military Service:</strong> Punishable by imprisonment up to 5 years and/or fines.</li>
+                                        <li><strong>Sabotage or Espionage:</strong> Severe penalties, including life imprisonment or capital punishment, depending on the offense.</li>
+                                    </ul>
+                                    
+                                    <h4>Legal Procedures:</h4>
+                                    <p>Those charged with avoiding national duty face trial in a military or civil court, depending on the nature of the offense.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="term">
+                                <h3>Preserving Public Property</h3>
+                                <div class="term-content">
+                                    <h4>Obligations:</h4>
+                                    <p>Citizens must safeguard public property, including parks, government buildings, and infrastructure, ensuring they remain intact for the benefit of all.</p>
+                                    
+                                    <h4>Punishment for Vandalism:</h4>
+                                    <ul>
+                                        <li><strong>Damaging Public Property (Prevention of Damage to Public Property Act):</strong> Imprisonment up to 5 years and fines.</li>
+                                        <li><strong>Repeated Offenses:</strong> Heavier penalties, including imprisonment for up to 10 years and substantial fines.</li>
+                                    </ul>
+                                    
+                                    <h4>Court:</h4>
+                                    <p>Such cases are tried in Magistrate's Courts, and if serious, in Sessions Courts. The court considers the extent of damage, intent, and public impact before sentencing.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="term">
+                                <h3>Upholding National Integrity</h3>
+                                <div class="term-content">
+                                    <h4>Definition:</h4>
+                                    <p>Citizens must act to preserve the unity, sovereignty, and integrity of India, avoiding actions that incite violence, hatred, or secessionist activities.</p>
+                                    
+                                    <h4>Punishment for Breach:</h4>
+                                    <ul>
+                                        <li><strong>Sedition (Section 124A of IPC):</strong> Punishable by life imprisonment with or without a fine.</li>
+                                        <li><strong>Acts Against National Unity:</strong> Severe penalties, including imprisonment up to life and heavy fines.</li>
+                                    </ul>
+                                    
+                                    <h4>Appeals:</h4>
+                                    <p>Convicted individuals can appeal to higher courts, but these cases often involve strict scrutiny and long trials.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+               
+            </div>
+        </div>
+
+        <div class="law-card">
+            <h2>Section 9: Disqualification for citizenship</h2>
+            <p>Conditions under which a person may be disqualified from citizenship.</p>
+            <div class="law-content">
+               
+                
+                        
+                            <!-- Nested dropdown for individual terms -->
+                            <div class="term">
+                                <h3>Grounds for Disqualification</h3>
+                                <div class="term-content">
+                                    <p>Disqualification for citizenship can occur due to acts such as fraudulent acquisition of citizenship, involvement in anti-national activities, or obtaining citizenship of another country.</p>
+                                    
+                                    <!-- Detailed content under Disqualification -->
+                                    <h4>Punishments:</h4>
+                                    <ul>
+                                        <li>Revocation of Citizenship: The person may lose their Indian citizenship if found guilty of acts such as fraud, concealment of facts during the naturalization process, or disloyalty to the country.</li>
+                                        <li>Deportation: In cases where citizenship is revoked, the individual may face deportation if they do not hold citizenship of any other country.</li>
+                                        <li>Fines: Depending on the severity of the fraud or violation, fines may be imposed along with the revocation of citizenship.</li>
+                                    </ul>
+                                    
+                                    <h4>Court:</h4>
+                                    <ul>
+                                        <li><strong>Jurisdiction:</strong> Matters related to citizenship disqualification are typically handled by the Ministry of Home Affairs. In case of disputes, the case may be tried in a High Court or the Supreme Court of India.</li>
+                                        <li><strong>Legal Process:</strong> The government may initiate a legal investigation if an individual is suspected of acquiring citizenship through fraudulent means or engaging in activities against the national interest.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="term">
+                                <h3>Dual Citizenship</h3>
+                                <div class="term-content">
+                                    <p>India does not permit dual citizenship. Acquiring citizenship of another country automatically leads to the loss of Indian citizenship.</p>
+                                    
+                                    <!-- Detailed content under Dual Citizenship -->
+                                    <h4>Actions and Punishments:</h4>
+                                    <ul>
+                                        <li><strong>Automatic Loss of Citizenship:</strong> If an Indian citizen voluntarily acquires citizenship of another country, they lose their Indian citizenship by law.</li>
+                                        <li><strong>Reapplication:</strong> A person who loses Indian citizenship can reapply for Overseas Citizen of India (OCI) status, but they will not regain full citizenship rights.</li>
+                                    </ul>
+                                    
+                                    <h4>Court:</h4>
+                                    <ul>
+                                        <li><strong>Jurisdiction:</strong> The case may be referred to the Indian Embassy or the Ministry of External Affairs in cases of dual citizenship disputes.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="term">
+                                <h3>Anti-National Activities</h3>
+                                <div class="term-content">
+                                    <h4>Definition:</h4>
+                                    <p>Anti-national activities include acts that threaten the unity, integrity, and sovereignty of India, such as espionage, treason, or acts of terrorism.</p>
+                
+                                    <h4>Punishments:</h4>
+                                    <ul>
+                                        <li><strong>Revocation of Citizenship:</strong> If a person is found to be involved in anti-national activities, their citizenship may be revoked under the Citizenship Act.</li>
+                                        <li><strong>Imprisonment:</strong> Apart from losing citizenship, they may face criminal charges and imprisonment under the National Security Act.</li>
+                                        <li><strong>Fine:</strong> Fines can be imposed depending on the severity of the offense.</li>
+                                    </ul>
+                
+                                    <h4>Court:</h4>
+                                    <ul>
+                                        <li><strong>Jurisdiction:</strong> Such cases are generally tried in a Sessions Court or High Court, depending on the severity and nature of the activity.</li>
+                                        <li><strong>Legal Process:</strong> The government may initiate legal action, and the individual has the right to defend themselves in court.</li>
+                                    </ul>
+                
+                                    <h4>Considerations:</h4>
+                                    <ul>
+                                        <li><strong>Severity of Actions:</strong> In cases involving terrorism, espionage, or war against the state, the punishment may include life imprisonment or the death penalty.</li>
+                                        <li><strong>Defenses:</strong> The individual may argue that their actions were misunderstood or that they acted under duress, but this depends on the specific case and the available evidence.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="law-card">
+            <h2>Section 10: Rights of the children of citizens</h2>
+            <p>Rights accorded to children of Indian citizens.</p>
+            <div class="law-content">
+               
+                            <!-- Nested dropdown for individual terms -->
+                            <div class="term">
+                                <h3>Right to Education</h3>
+                                <div class="term-content">
+                                    <p>Every child has the fundamental right to free and compulsory education up to the age of 14 years under the Right to Education Act, 2009.</p>
+                                    <h4>Punishment for Violating Right to Education:</h4>
+                                    <ul>
+                                        <li>Schools or individuals failing to comply with this right may face penalties such as fines, cancellation of licenses, or legal action by education authorities.</li>
+                                        <li>Parents or guardians are obligated to ensure their child attends school, and failure to do so may result in intervention by child protection authorities.</li>
+                                    </ul>
+                                    <h4>Fines:</h4>
+                                    <ul>
+                                        <li>Non-compliance by schools: Fine of up to ₹1 lakh for the first offense and ₹10,000 per day for continuing offenses.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="term">
+                                <h3>Right to Protection from Abuse</h3>
+                                <div class="term-content">
+                                    <p>Children are protected from all forms of physical, emotional, and sexual abuse under various laws, including the Protection of Children from Sexual Offenses (POCSO) Act.</p>
+                                    <h4>Punishments for Child Abuse:</h4>
+                                    <ul>
+                                        <li><strong>Sexual Assault:</strong> Punishment ranges from rigorous imprisonment for 3 to 7 years and a fine, depending on the severity of the assault.</li>
+                                        <li><strong>Physical Abuse:</strong> Offenders can face up to 5 years of imprisonment, with increased penalties for aggravated assault or abuse.</li>
+                                    </ul>
+                                    <h4>Fines:</h4>
+                                    <ul>
+                                        <li>Penalties for institutions that fail to report abuse or protect children: ₹50,000 to ₹1 lakh, depending on the case.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="term">
+                                <h3>Right to Health and Nutrition</h3>
+                                <div class="term-content">
+                                    <p>Every child has the right to basic health care and nutrition under the National Health Mission and Integrated Child Development Services (ICDS).</p>
+                                    <h4>Punishments for Denying Health Rights:</h4>
+                                    <ul>
+                                        <li>Health workers or institutions failing to provide necessary care can face legal action, including fines or imprisonment for gross negligence.</li>
+                                    </ul>
+                                    <h4>Fines:</h4>
+                                    <ul>
+                                        <li>Penalties for negligence in health care: Fines of ₹25,000 to ₹1 lakh depending on the severity of the offense.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="term">
+                                <h3>Child Labor</h3>
+                                <div class="term-content">
+                                    <h4>Definition:</h4>
+                                    <p>Child labor refers to the illegal employment of children under the age of 14 in hazardous occupations or any form of full-time employment, as per the Child Labor (Prohibition and Regulation) Act, 1986.</p>
+                                    <h4>Punishment for Violating Child Labor Laws:</h4>
+                                    <ul>
+                                        <li>Employers can face imprisonment of 6 months to 2 years and fines ranging from ₹20,000 to ₹50,000.</li>
+                                        <li>Repeat offenders can face more severe penalties, including higher fines and longer imprisonment.</li>
+                                    </ul>
+                                    <h4>Fines:</h4>
+                                    <ul>
+                                        <li>Fine for employing children: ₹20,000 to ₹50,000, depending on the nature of the violation.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="law-card">
+            <h2>Section 11: Equality before law</h2>
+            <p>All persons shall be equal before the law and entitled to equal protection of the laws.</p>
+            <div class="law-content">
+                
+                            <!-- Nested dropdown for individual terms -->
+                            <div class="term">
+                                <h3>Discrimination</h3>
+                                <div class="term-content">
+                                    <p>Discrimination occurs when an individual is treated unfairly based on characteristics such as race, gender, religion, or social status.</p>
+                                    
+                                    <!-- Detailed content under Discrimination -->
+                                    <h4>Punishment:</h4>
+                                    <ul>
+                                        <li>Violation of Equality Rights:
+                                            Offenders who engage in discriminatory acts may face fines or imprisonment, depending on the severity of the act and the country's specific laws.
+                                        </li>
+                                        <li>Right to File a Complaint:
+                                            Victims of discrimination can file complaints with human rights commissions or relevant legal authorities to seek justice.
+                                        </li>
+                                        <li>Right to Compensation:
+                                            In cases where discrimination causes significant harm, victims can seek compensation through legal proceedings.
+                                        </li>
+                                    </ul>
+                                    
+                                    <h4>Court:</h4>
+                                    <ul>
+                                        <li>Jurisdiction:
+                                            Discrimination cases can be handled in civil courts or human rights tribunals, depending on the nature of the complaint.
+                                        </li>
+                                        <li>Right to Legal Representation:
+                                            Both the complainant and the accused have the right to legal representation in discrimination cases.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="term">
+                                <h3>Equal Pay</h3>
+                                <div class="term-content">
+                                    <p>Equal pay refers to the principle that individuals performing the same job should receive the same pay, regardless of gender or other discriminatory factors.</p>
+                                    
+                                    <!-- Detailed content under Equal Pay -->
+                                    <h4>Punishment:</h4>
+                                    <ul>
+                                        <li>Failure to Provide Equal Pay:
+                                            Employers who violate equal pay laws may face fines and legal action, including compensation for affected employees.
+                                        </li>
+                                    </ul>
+                                    
+                                    <h4>Court:</h4>
+                                    <ul>
+                                        <li>Jurisdiction:
+                                            Equal pay disputes are typically handled in labor courts or employment tribunals.
+                                        </li>
+                                        <li>Legal Process:
+                                            Employees can file complaints with labor departments or take the matter to court for resolution.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="term">
+                                <h3>Public Services and Opportunities</h3>
+                                <div class="term-content">
+                                    <h4>Definition:</h4>
+                                    <p>All individuals have the right to equal access to public services and opportunities, such as education, healthcare, and employment, without discrimination.</p>
+                                    
+                                    <h4>Punishment:</h4>
+                                    <ul>
+                                        <li>Denial of Access:
+                                            Individuals or institutions that deny access to public services based on discriminatory grounds may face legal consequences, including fines and penalties.
+                                        </li>
+                                    </ul>
+                                    
+                                    <h4>Court:</h4>
+                                    <ul>
+                                        <li>Jurisdiction:
+                                            Cases involving the denial of public services can be brought before civil courts or human rights commissions.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="law-card">
+            <h2>Section 12: Prohibition of discrimination on grounds of religion, race, caste, sex, or place of birth</h2>
+            <p>No citizen shall be discriminated against on the grounds of religion, race, caste, sex, or place of birth.</p>
+            <div class="law-content">
+             
+                
+                            <!-- Nested dropdown for individual aspects -->
+                            <div class="term">
+                                <h3>Types of Discrimination</h3>
+                                <div class="term-content">
+                                    <h4>Types and Punishments:</h4>
+                                    <ul>
+                                        <li><strong>Religious Discrimination:</strong> Discriminating against individuals based on their religion is punishable by fines and up to 1 year of imprisonment.</li>
+                                        <li><strong>Racial Discrimination:</strong> Acts of racial discrimination can result in imprisonment of up to 1 year or a fine, or both.</li>
+                                        <li><strong>Caste-based Discrimination:</strong> Punishment can extend to 1 year of imprisonment, with additional penalties depending on severity.</li>
+                                        <li><strong>Gender-based Discrimination:</strong> Violations of gender equality may lead to fines and up to 6 months of imprisonment.</li>
+                                        <li><strong>Discrimination based on Place of Birth:</strong> Penalized with fines or up to 6 months of imprisonment.</li>
+                                    </ul>
+                
+                                    <h4>Legal Rights for Victims:</h4>
+                                    <ul>
+                                        <li><strong>Right to File a Complaint:</strong> Victims can file a complaint with the police or a human rights commission.</li>
+                                        <li><strong>Right to Compensation:</strong> Victims may seek compensation through legal proceedings if the discrimination resulted in harm or loss.</li>
+                                        <li><strong>Right to Equal Opportunity:</strong> Individuals denied access to employment, education, or services based on discrimination can pursue legal action to seek fair treatment.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                            <div class="term">
+                                <h3>Legal Process and Court Jurisdiction</h3>
+                                <div class="term-content">
+                                    <p>Cases involving discrimination are handled by a Magistrate's Court, with severe cases escalated to higher courts.</p>
+                
+                                    <h4>Procedures:</h4>
+                                    <ul>
+                                        <li><strong>First Instance:</strong> Cases begin in the Judicial Magistrate First Class (JMFC) or the Metropolitan Magistrate Court, based on jurisdiction.</li>
+                                        <li><strong>Appeals:</strong> If convicted, appeals can be made to higher courts, including the High Court and Supreme Court of India.</li>
+                                        <li><strong>Investigations:</strong> Police conduct investigations, and cases may be referred to specialized tribunals for certain types of discrimination.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                            <div class="term">
+                                <h3>Fines and Penalties</h3>
+                                <div class="term-content">
+                                    <h4>Fine Amounts:</h4>
+                                    <ul>
+                                        <li>Minor offenses: Fines up to ₹1,000.</li>
+                                        <li>Severe cases of repeated or harmful discrimination: Fines up to ₹5,000 and potential imprisonment.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                            <div class="term">
+                                <h3>Important Considerations</h3>
+                                <div class="term-content">
+                                    <ul>
+                                        <li><strong>Aggravating Factors:</strong> Cases involving repeated offenses, public endangerment, or harm to vulnerable individuals carry harsher penalties.</li>
+                                        <li><strong>Defenses:</strong> Unintentional conduct or actions taken in response to threats may be considered as mitigating factors.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+               
+            </div>
+        </div>
+
+        <div class="law-card">
+            <h2>Section 13: Laws inconsistent with or in derogation of the fundamental rights</h2>
+            <p>Any law that contradicts or undermines fundamental rights is void.</p>
+            <div class="law-content">
+               
+                
+                            <!-- Nested dropdown for individual rights topics -->
+                            <div class="term">
+                                <h3>Right to Equality</h3>
+                                <div class="term-content">
+                                    <p>Any law that discriminates on grounds of religion, race, caste, sex, or place of birth is invalid. All individuals are entitled to equality before the law.</p>
+                                    
+                                    <!-- Detailed content under Right to Equality -->
+                                    <h4>Violations and Consequences:</h4>
+                                    <ul>
+                                        <li>Citizens can challenge discriminatory laws through a writ petition filed in the High Court or Supreme Court.</li>
+                                        <li>The court can strike down any law that violates the right to equality, declaring it unconstitutional.</li>
+                                    </ul>
+                                    
+                                    <h4>Fines and Remedies:</h4>
+                                    <ul>
+                                        <li>Compensation: Victims may seek compensation for any harm caused by discriminatory laws or actions.</li>
+                                        <li>Legal Costs: The state may cover legal costs incurred by victims who challenge such laws.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                            <div class="term">
+                                <h3>Freedom of Speech and Expression</h3>
+                                <div class="term-content">
+                                    <p>All citizens have the right to freely express their thoughts, but reasonable restrictions apply in the interest of public order, security, and decency.</p>
+                                    
+                                    <!-- Detailed content under Freedom of Speech and Expression -->
+                                    <h4>Restrictions and Penalties:</h4>
+                                    <ul>
+                                        <li><strong>Penalty for Incitement:</strong> Speech inciting violence or hatred can lead to fines and imprisonment under relevant sections of the IPC.</li>
+                                        <li><strong>Defamation:</strong> False statements that harm a person’s reputation can lead to penalties, including fines and damages.</li>
+                                    </ul>
+                
+                                    <h4>Judicial Remedies:</h4>
+                                    <ul>
+                                        <li>High Courts and the Supreme Court can quash restrictions that are found to be unreasonable or inconsistent with fundamental rights.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                            <div class="term">
+                                <h3>Right to Life and Personal Liberty</h3>
+                                <div class="term-content">
+                                    <h4>Definition:</h4>
+                                    <p>Any law infringing on an individual’s right to life and personal liberty without due process is invalid. This includes arbitrary detention and restrictions on movement.</p>
+                                    
+                                    <h4>Penalties and Judicial Actions:</h4>
+                                    <ul>
+                                        <li>Illegal Detention: Victims of unlawful detention can seek compensation, and responsible officials may face disciplinary action.</li>
+                                        <li>Right to Compensation: The court can award compensation for infringements on personal liberty.</li>
+                                    </ul>
+                                    
+                                    <h4>Appeals:</h4>
+                                    <ul>
+                                        <li>Victims may appeal to higher courts if fundamental rights are infringed upon.</li>
+                                        <li>In severe cases, victims may approach the Supreme Court under Article 32.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                            <div class="term">
+                                <h3>Right to Constitutional Remedies</h3>
+                                <div class="term-content">
+                                    <h4>Definition:</h4>
+                                    <p>The right to move the Supreme Court directly in case of violation of fundamental rights is a key remedy for protection.</p>
+                
+                                    <h4>Legal Process:</h4>
+                                    <ul>
+                                        <li><strong>Writs:</strong> Citizens can file for various writs, including Habeas Corpus, Mandamus, and Certiorari, to challenge rights violations.</li>
+                                        <li><strong>Penalty for Non-Compliance:</strong> Government authorities failing to comply with the Court’s orders in these cases may face contempt charges.</li>
+                                    </ul>
+                
+                                    <h4>Fines and Damages:</h4>
+                                    <p>Compensation may be awarded to victims, and courts can impose fines on state authorities for non-compliance with fundamental rights.</p>
+                                </div>
+                            </div>
+                
+                        </div>
+                    </div>
+                </div>
+                
+              
+            </div>
+        </div>
+
+        <div class="law-card">
+            <h2>Section 14: Equality before law</h2>
+            <p>All persons shall be equal before the law and entitled to equal protection of the laws.</p>
+            <div class="law-content">
+               
+                
+                            <!-- Nested dropdown for individual rights topics -->
+                            <div class="term">
+                                <h3>Right to Equality</h3>
+                                <div class="term-content">
+                                    <p>Any law that discriminates on grounds of religion, race, caste, sex, or place of birth is invalid. All individuals are entitled to equality before the law.</p>
+                                    
+                                    <!-- Detailed content under Right to Equality -->
+                                    <h4>Violations and Consequences:</h4>
+                                    <ul>
+                                        <li>Citizens can challenge discriminatory laws through a writ petition filed in the High Court or Supreme Court.</li>
+                                        <li>The court can strike down any law that violates the right to equality, declaring it unconstitutional.</li>
+                                    </ul>
+                                    
+                                    <h4>Fines and Remedies:</h4>
+                                    <ul>
+                                        <li>Compensation: Victims may seek compensation for any harm caused by discriminatory laws or actions.</li>
+                                        <li>Legal Costs: The state may cover legal costs incurred by victims who challenge such laws.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                            <div class="term">
+                                <h3>Freedom of Speech and Expression</h3>
+                                <div class="term-content">
+                                    <p>All citizens have the right to freely express their thoughts, but reasonable restrictions apply in the interest of public order, security, and decency.</p>
+                                    
+                                    <!-- Detailed content under Freedom of Speech and Expression -->
+                                    <h4>Restrictions and Penalties:</h4>
+                                    <ul>
+                                        <li><strong>Penalty for Incitement:</strong> Speech inciting violence or hatred can lead to fines and imprisonment under relevant sections of the IPC.</li>
+                                        <li><strong>Defamation:</strong> False statements that harm a person’s reputation can lead to penalties, including fines and damages.</li>
+                                    </ul>
+                
+                                    <h4>Judicial Remedies:</h4>
+                                    <ul>
+                                        <li>High Courts and the Supreme Court can quash restrictions that are found to be unreasonable or inconsistent with fundamental rights.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                            <div class="term">
+                                <h3>Right to Life and Personal Liberty</h3>
+                                <div class="term-content">
+                                    <h4>Definition:</h4>
+                                    <p>Any law infringing on an individual’s right to life and personal liberty without due process is invalid. This includes arbitrary detention and restrictions on movement.</p>
+                                    
+                                    <h4>Penalties and Judicial Actions:</h4>
+                                    <ul>
+                                        <li>Illegal Detention: Victims of unlawful detention can seek compensation, and responsible officials may face disciplinary action.</li>
+                                        <li>Right to Compensation: The court can award compensation for infringements on personal liberty.</li>
+                                    </ul>
+                                    
+                                    <h4>Appeals:</h4>
+                                    <ul>
+                                        <li>Victims may appeal to higher courts if fundamental rights are infringed upon.</li>
+                                        <li>In severe cases, victims may approach the Supreme Court under Article 32.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                            <div class="term">
+                                <h3>Right to Constitutional Remedies</h3>
+                                <div class="term-content">
+                                    <h4>Definition:</h4>
+                                    <p>The right to move the Supreme Court directly in case of violation of fundamental rights is a key remedy for protection.</p>
+                
+                                    <h4>Legal Process:</h4>
+                                    <ul>
+                                        <li><strong>Writs:</strong> Citizens can file for various writs, including Habeas Corpus, Mandamus, and Certiorari, to challenge rights violations.</li>
+                                        <li><strong>Penalty for Non-Compliance:</strong> Government authorities failing to comply with the Court’s orders in these cases may face contempt charges.</li>
+                                    </ul>
+                
+                                    <h4>Fines and Damages:</h4>
+                                    <p>Compensation may be awarded to victims, and courts can impose fines on state authorities for non-compliance with fundamental rights.</p>
+                                </div>
+                            </div>
+                
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="law-card">
+            <h2>Section 15: Prohibition of discrimination on grounds of religion, race, caste, sex, or place of birth</h2>
+            <p>No citizen shall be discriminated against on the grounds of religion, race, caste, sex, or place of birth.</p>
+            <div class="law-content">
+              
+                            <!-- Nested dropdown for individual terms -->
+                            <div class="term">
+                                <h3>Discrimination Overview</h3>
+                                <div class="term-content">
+                                    <p>Discrimination based on religion, race, caste, sex, or place of birth is prohibited by law, ensuring equal rights and protection for all citizens.</p>
+                
+                                    <!-- Detailed content under Discrimination -->
+                                    <h4>Punishments:</h4>
+                                    <ul>
+                                        <li>Imprisonment: Offenders may face imprisonment ranging from 6 months to 3 years for acts of discrimination.</li>
+                                        <li>Fines: Courts may impose fines based on the severity of the discrimination, typically ranging from ₹1,000 to ₹10,000 or more.</li>
+                                        <li>Both Imprisonment and Fine: In severe cases, both imprisonment and a fine may be imposed to ensure accountability.</li>
+                                    </ul>
+                
+                                    <h4>Legal Rights for Victims:</h4>
+                                    <ul>
+                                        <li>Right to File a Complaint: Victims have the right to lodge a complaint with local authorities or human rights commissions.</li>
+                                        <li>Right to Seek Compensation: Victims of discrimination may seek compensation for emotional distress or financial harm caused by discriminatory actions.</li>
+                                    </ul>
+                
+                                    <h4>Court:</h4>
+                                    <ul>
+                                        <li>Jurisdiction: Cases related to discrimination may be addressed by civil courts or human rights tribunals, depending on the nature of the case.</li>
+                                        <li>Appeals: Individuals found guilty can appeal to a higher court, such as the High Court, if they believe there was a legal error in their case.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                            <div class="term">
+                                <h3>Do's and Don'ts</h3>
+                                <div class="term-content">
+                                    <h4>Do's:</h4>
+                                    <ul>
+                                        <li>Respect all individuals regardless of their religion, race, caste, sex, or place of birth.</li>
+                                        <li>Ensure equal treatment and opportunities in workplaces, educational institutions, and public places.</li>
+                                        <li>Report any discriminatory behavior witnessed or experienced to appropriate authorities.</li>
+                                    </ul>
+                
+                                    <h4>Don'ts:</h4>
+                                    <ul>
+                                        <li>Avoid any form of discrimination or exclusion based on religion, race, caste, sex, or birthplace.</li>
+                                        <li>Do not participate in hate speech or discriminatory practices against individuals or groups.</li>
+                                        <li>Do not tolerate discriminatory behavior by others; report it to authorities if observed.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                            <div class="term">
+                                <h3>Consequences and Appeals</h3>
+                                <div class="term-content">
+                                    <h4>Legal Consequences:</h4>
+                                    <p>Discrimination is punishable by law, with penalties including imprisonment, fines, and possible civil liabilities in cases of severe discrimination or harassment.</p>
+                
+                                    <h4>Appeals:</h4>
+                                    <p>Both the accused and the victim can appeal to a higher court if they believe there was an error in judgment or if new evidence arises. The case may be taken to the High Court or Supreme Court as per legal provisions.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+
+        <div class="law-card">
+            <h2>Section 16: Equality of opportunity in matters of public employment</h2>
+            <p>It ensures equality of opportunity for all citizens in matters of public employment.</p>
+            <div class="law-content">
+             
+                
+                            <!-- Nested dropdown for individual terms -->
+                            <div class="term">
+                                <h3>Discrimination</h3>
+                                <div class="term-content">
+                                    <p>Discrimination in public employment involves any unfair treatment based on factors unrelated to merit, which is prohibited under the law.</p>
+                                    
+                                    <!-- Detailed content under Discrimination -->
+                                    <h4>Punishment:</h4>
+                                    <ul>
+                                        <li>Complaint to Administrative Tribunal: Individuals facing discrimination can approach the Administrative Tribunal for redress.</li>
+                                        <li>Penalties for Discriminatory Practices: Government officials found guilty of discrimination may face disciplinary action, suspension, or even dismissal.</li>
+                                    </ul>
+                                    
+                                    <h4>Legal Rights of Affected Individuals:</h4>
+                                    <ul>
+                                        <li>Right to File a Grievance: Affected individuals can lodge a complaint with the National Commission for Scheduled Castes, Scheduled Tribes, or other relevant bodies.</li>
+                                        <li>Right to Equal Access: The affected person may seek to have the position re-evaluated to ensure merit-based selection.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                            <div class="term">
+                                <h3>Reservation Policy</h3>
+                                <div class="term-content">
+                                    <p>The reservation policy ensures that certain groups, including SCs, STs, and OBCs, are provided with opportunities in public employment to promote equality.</p>
+                                    
+                                    <!-- Detailed content under Reservation Policy -->
+                                    <h4>Provisions and Penalties for Violations:</h4>
+                                    <ul>
+                                        <li>Reservation Quotas: Non-compliance with reservation quotas may lead to judicial intervention and corrective measures in appointments.</li>
+                                        <li>Penalty for Bypassing Quotas: Officials who intentionally violate reservation norms may be subject to suspension or legal repercussions.</li>
+                                    </ul>
+                                    
+                                    <h4>Exceptions:</h4>
+                                    <ul>
+                                        <li>States are allowed to implement domicile-based preferences under specific circumstances, provided these do not infringe on equality principles.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                            <div class="term">
+                                <h3>Merit-Based Appointments</h3>
+                                <div class="term-content">
+                                    <h4>Definition:</h4>
+                                    <p>Merit-based appointments ensure that positions in public employment are awarded to individuals based on skills, qualifications, and performance in relevant examinations or interviews.</p>
+                                    
+                                    <h4>Rights of Applicants:</h4>
+                                    <ul>
+                                        <li>Right to Transparent Selection: Applicants are entitled to fair and transparent selection processes.</li>
+                                        <li>Right to Appeal: Applicants can appeal selection decisions if they suspect discrimination or unfair practices.</li>
+                                    </ul>
+                
+                                    <h4>Legal Process:</h4>
+                                    <ul>
+                                        <li>Judicial Review: Courts can review employment selections to ensure compliance with equality principles.</li>
+                                        <li>Penalties: In cases of proven bias or procedural lapses, re-evaluation of candidates may be mandated.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                            <div class="term">
+                                <h3>Consequences for Non-Compliance</h3>
+                                <div class="term-content">
+                                    <h4>Punishment:</h4>
+                                    <ul>
+                                        <li>Suspension or Dismissal: Officials found violating equality norms may face suspension or dismissal from public service.</li>
+                                        <li>Legal Action: Non-compliance can lead to criminal or civil penalties, including fines or imprisonment, for severe violations.</li>
+                                    </ul>
+                
+                                    <h4>Fines:</h4>
+                                    <p>Fines vary based on the severity of the violation and can include monetary penalties or compensation to the affected individuals as ordered by the court.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+
+        <div class="law-card">
+            <h2>Section 17: Abolition of untouchability</h2>
+            <p>Untouchability is abolished and its practice in any form is forbidden.</p>
+            <div class="law-content">
+              
+                
+                            <!-- Nested dropdown for individual terms -->
+                            <div class="term">
+                                <h3>Legal Rights and Protections</h3>
+                                <div class="term-content">
+                                    <p>Legal rights ensure that no individual faces discrimination on the grounds of caste or untouchability. These rights are safeguarded under Article 17 of the Indian Constitution and other related laws.</p>
+                                    
+                                    <!-- Detailed content under Abolition of Untouchability -->
+                                    <h4>Punishments:</h4>
+                                    <ul>
+                                        <li><strong>Imprisonment:</strong> Any person found practicing or promoting untouchability may face imprisonment of up to 6 months, as per the Protection of Civil Rights Act, 1955.</li>
+                                        <li><strong>Fine:</strong> A fine of up to ₹500 may also be imposed, depending on the offense's nature and severity.</li>
+                                        <li><strong>Increased Penalty for Repeated Offenses:</strong> Repeat offenders may face harsher penalties, including a higher fine and longer imprisonment.</li>
+                                    </ul>
+                
+                                    <h4>Legal Proceedings:</h4>
+                                    <ul>
+                                        <li><strong>Jurisdiction:</strong> Cases involving the practice of untouchability are handled in a Magistrate's Court, where they are considered cognizable offenses.</li>
+                                        <li><strong>Right to Legal Representation:</strong> Every accused has the right to engage a lawyer or be provided one by the court if they cannot afford one.</li>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                            <div class="term">
+                                <h3>Guidelines for Public Conduct</h3>
+                                <div class="term-content">
+                                    <p>Practices or behaviors that encourage untouchability or discrimination based on caste are strictly prohibited under Indian law.</p>
+                                    
+                                    <!-- Detailed content under Guidelines -->
+                                    <h4>Do’s:</h4>
+                                    <ul>
+                                        <li>Ensure that public facilities and resources are accessible to all individuals, regardless of caste.</li>
+                                        <li>Report any incidents of untouchability to local authorities or law enforcement immediately.</li>
+                                        <li>Promote equality and respect for all communities.</li>
+                                    </ul>
+                
+                                    <h4>Don’ts:</h4>
+                                    <ul>
+                                        <li>Do not deny access to public resources, places of worship, or education to any individual based on caste.</li>
+                                        <li>Do not engage in or support practices that enforce or promote untouchability.</li>
+                                        <li>Do not discriminate against others in employment, housing, or social settings.</li>
+                                    </ul>
+                                    
+                                    <h4>Legal Actions:</h4>
+                                    <ul>
+                                        <li>Victims of untouchability or caste-based discrimination can file a complaint with local authorities or the court.</li>
+                                        <li>Organizations promoting equality can initiate legal proceedings to support victims and raise awareness.</li>
+                                    </ul>
+                                    
+                                    <p>Promoting caste equality is a constitutional duty, and individuals and institutions must work to prevent any form of untouchability in society.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+               
+            </div>
+        </div>
+
+        <div class="law-card">
+            <h2>Section 18: Protection of interests of minorities</h2>
+            <p>It provides for the protection of interests of minorities.</p>
+            <div class="law-content">
+               
+                            
+                            <!-- Nested dropdown for individual terms -->
+                            <div class="term">
+                                <h3>Minority Rights</h3>
+                                <div class="term-content">
+                                    <p>Minority rights are safeguards established by law to ensure the protection of cultural, linguistic, and educational rights of minorities.</p>
+                
+                                    <h4>Rights and Protections:</h4>
+                                    <ul>
+                                        <li><strong>Right to Establish and Administer Educational Institutions:</strong> Minorities have the right to establish educational institutions to preserve their cultural identity (Article 30 of the Indian Constitution).</li>
+                                        <li><strong>Protection Against Discrimination:</strong> Minorities are protected from discrimination in matters of admission, employment, and social rights.</li>
+                                        <li><strong>Freedom of Religion:</strong> Every individual has the freedom to practice and propagate their religion, without interference.</li>
+                                    </ul>
+                
+                                    <h4>Fines and Penalties for Violations:</h4>
+                                    <ul>
+                                        <li><strong>Discrimination and Harassment:</strong> Any form of discrimination or harassment against minorities can result in fines up to ₹10,000 and/or imprisonment up to 1 year, depending on the severity.</li>
+                                        <li><strong>Destruction of Religious or Cultural Institutions:</strong> Punishable by up to 3 years of imprisonment and/or a fine.</li>
+                                    </ul>
+                                    
+                                    <h4>Court:</h4>
+                                    <ul>
+                                        <li><strong>Jurisdiction:</strong> Cases regarding minority rights violations are typically handled in District Courts or High Courts, depending on the nature of the violation.</li>
+                                        <li><strong>Appeal:</strong> If there is an appeal, cases can be escalated to higher courts, including the Supreme Court.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="term">
+                                <h3>Protection of Cultural Identity</h3>
+                                <div class="term-content">
+                                    <p>Protecting the cultural identity of minorities involves safeguarding their languages, traditions, and religious practices.</p>
+                
+                                    <h4>Types of Protections:</h4>
+                                    <ul>
+                                        <li><strong>Cultural Heritage Sites:</strong> Destruction or vandalism of minority cultural sites can result in imprisonment up to 5 years and/or a fine.</li>
+                                        <li><strong>Preservation of Language:</strong> Any attempt to suppress or ban minority languages in official contexts may result in penalties, including fines and administrative action.</li>
+                                    </ul>
+                
+                                    <h4>Court:</h4>
+                                    <ul>
+                                        <li><strong>Jurisdiction:</strong> Violations may be brought to a Magistrate's Court or High Court for more serious violations.</li>
+                                    </ul>
+                
+                                    <h4>Considerations:</h4>
+                                    <ul>
+                                        <li><strong>Aggravating Factors:</strong> Violations involving violence or public discrimination may lead to increased penalties.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="term">
+                                <h3>Freedom from Discrimination</h3>
+                                <div class="term-content">
+                                    <h4>Definition:</h4>
+                                    <p>Minorities are entitled to protection from discrimination on grounds of race, religion, or language.</p>
+                
+                                    <h4>Punishments:</h4>
+                                    <ul>
+                                        <li><strong>Discriminatory Practices:</strong> Acts of discrimination, including denial of access to services or public spaces, may incur fines up to ₹5,000 and/or imprisonment for up to 6 months.</li>
+                                        <li><strong>Hate Speech:</strong> Hate speech against minorities can result in fines and imprisonment depending on severity, often up to 3 years of imprisonment.</li>
+                                    </ul>
+                
+                                    <h4>Court:</h4>
+                                    <ul>
+                                        <li><strong>Jurisdiction:</strong> Typically handled in the Magistrate's Court, with severe cases going to Sessions Courts.</li>
+                                    </ul>
+                
+                                    <h4>Legal Process:</h4>
+                                    <p>Minorities facing discrimination can file a report with the appropriate authorities, and the case will proceed based on evidence and severity.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+
+        <div class="law-card">
+            <h2>Section 19: Right to freedom of speech and expression</h2>
+            <p>All citizens shall have the right to freedom of speech and expression.</p>
+            <div class="law-content">
+                
+                            <!-- Nested dropdown for individual terms -->
+                            <div class="term">
+                                <h3>Right to Freedom of Speech and Expression</h3>
+                                <div class="term-content">
+                                    <p>The right to freedom of speech and expression is a fundamental right provided by the Indian Constitution under Article 19(1)(a). It allows individuals to express opinions and ideas without fear of punishment or retaliation, within certain limitations.</p>
+                
+                                    <!-- Detailed content under Right to Freedom of Speech and Expression -->
+                                    <h4>Limitations:</h4>
+                                    <ul>
+                                        <li><strong>Public Order:</strong> Statements that incite violence, disrupt public peace, or disturb order are restricted.</li>
+                                        <li><strong>Defamation:</strong> False statements that harm another person's reputation are punishable under defamation laws.</li>
+                                        <li><strong>Contempt of Court:</strong> Disrespecting the authority of the court or its proceedings can result in legal consequences.</li>
+                                        <li><strong>Security of the State:</strong> Speech that compromises national security or encourages rebellion against the state is restricted.</li>
+                                        <li><strong>Decency and Morality:</strong> Content that is obscene or morally offensive may be regulated.</li>
+                                    </ul>
+                
+                                    <h4>Punishments:</h4>
+                                    <ul>
+                                        <li><strong>Public Disorder and Violence:</strong> Inciting violence or disrupting public order can lead to imprisonment for up to 6 months or fines, as per the nature of the offense.</li>
+                                        <li><strong>Defamation:</strong> Punishable under Section 500 of the IPC with imprisonment for up to 2 years, a fine, or both.</li>
+                                        <li><strong>Contempt of Court:</strong> Offenders may face fines or imprisonment for up to 6 months, as per the Contempt of Courts Act, 1971.</li>
+                                        <li><strong>Sedition (Section 124A):</strong> If speech or expression is considered to incite hatred or disloyalty toward the state, the punishment could be life imprisonment or imprisonment for up to 3 years, depending on the severity.</li>
+                                    </ul>
+                
+                                    <h4>Rights of the Individual:</h4>
+                                    <ul>
+                                        <li><strong>Right to Express:</strong> Citizens have the right to express their opinions verbally, in writing, or through any medium, while respecting limitations.</li>
+                                        <li><strong>Right to Information:</strong> Access to information is essential for informed speech; individuals can seek information under the Right to Information Act, 2005.</li>
+                                        <li><strong>Right to Assemble Peacefully:</strong> Citizens have the right to peaceful assembly, provided it is lawful and does not disturb public order.</li>
+                                    </ul>
+                
+                                    <h4>Court of Jurisdiction:</h4>
+                                    <ul>
+                                        <li><strong>Defamation Cases:</strong> Typically handled by a Magistrate's Court under Section 499 and Section 500 of the IPC.</li>
+                                        <li><strong>Contempt of Court:</strong> The High Court or Supreme Court has jurisdiction over contempt cases.</li>
+                                        <li><strong>Sedition and State Security:</strong> Tried in a Sessions Court due to their seriousness.</li>
+                                    </ul>
+                
+                                    <h4>Considerations and Appeals:</h4>
+                                    <ul>
+                                        <li><strong>Context and Intent:</strong> The court considers the context, intent, and impact of statements when determining the severity of the punishment.</li>
+                                        <li><strong>Appeals:</strong> Convictions can be appealed to a higher court, such as the High Court or Supreme Court, based on grounds of legal errors or human rights violations.</li>
+                                    </ul>
+                
+                                    <h4>Dos and Don'ts:</h4>
+                                    <ul>
+                                        <li><strong>Do:</strong> Exercise the right to freedom of speech responsibly and with respect for others' rights and dignity.</li>
+                                        <li><strong>Don't:</strong> Engage in hate speech, spread misinformation, or incite violence, as these actions can lead to legal consequences.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+              
+            </div>
+        </div>
+
+        <div class="law-card">
+            <h2>Section 20: Right to assemble peaceably and without arms</h2>
+            <p>Citizens have the right to assemble peaceably and without arms.</p>
+            <div class="law-content">
+                
+                            <!-- Nested dropdown for individual terms -->
+                            <div class="term">
+                                <h3>Right to Assemble Peaceably and Without Arms</h3>
+                                <div class="term-content">
+                                    <p>In India, citizens are granted the right to assemble peaceably and without arms under Article 19(1)(b) of the Constitution. This right allows people to gather for lawful purposes, provided it is non-violent and does not pose a threat to public order.</p>
+                
+                                    <h4>Limitations and Regulations:</h4>
+                                    <ul>
+                                        <li>Peaceful Assembly: Assemblies must be conducted peacefully, without any form of violence or aggression.</li>
+                                        <li>No Arms: Participants are prohibited from carrying any kind of weapon or arms during the assembly.</li>
+                                        <li>Permit Requirement: Certain public assemblies may require permission or a permit from local authorities, especially if they are expected to attract large gatherings or may disrupt public order.</li>
+                                        <li>No Disruption to Public Order: Assemblies should not disrupt public peace or cause harm to the community.</li>
+                                    </ul>
+                
+                                    <h4>Punishments:</h4>
+                                    <ul>
+                                        <li>Unlawful Assembly: If an assembly becomes violent or threatens public order, it may be deemed an unlawful assembly under Section 141 of the Indian Penal Code (IPC).</li>
+                                        <li>Punishment for Participation in Unlawful Assembly: Participants can face imprisonment of up to 6 months, a fine, or both (Section 143 of the IPC).</li>
+                                        <li>Rioting: If violence occurs, participants may be charged with rioting, punishable by up to 2 years of imprisonment or a fine, or both (Section 147 of the IPC).</li>
+                                    </ul>
+                
+                                    <h4>Dos and Don’ts:</h4>
+                                    <ul>
+                                        <li><strong>Do:</strong> Obtain necessary permissions if required by local authorities.</li>
+                                        <li><strong>Do:</strong> Ensure the assembly remains peaceful and respects public property.</li>
+                                        <li><strong>Don’t:</strong> Carry weapons, sticks, or any objects that could be perceived as harmful.</li>
+                                        <li><strong>Don’t:</strong> Engage in violent behavior, instigate unrest, or damage public or private property.</li>
+                                    </ul>
+                
+                                    <h4>Fines:</h4>
+                                    <p>The fines for violating assembly rules vary based on the nature of the offense. Minor disturbances may attract smaller fines, while acts that lead to violence or property damage can result in significant fines and additional penalties.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            
+            </div>
+        </div>
+
+        <div class="law-card">
+            <h2>Section 21: Right to form associations or unions</h2>
+            <p>All citizens have the right to form associations or unions.</p>
+            <div class="law-content">
+                
+                            <!-- Nested dropdown for individual terms -->
+                            <div class="term">
+                                <h3>Right to Form Associations or Unions</h3>
+                                <div class="term-content">
+                                    <p>The right to form associations or unions is protected under Article 19(1)(c) of the Indian Constitution, allowing citizens to unite for lawful purposes, including social, cultural, and political activities.</p>
+                                    
+                                    <!-- Detailed content under Right to Form Associations or Unions -->
+                                    <h4>Limitations:</h4>
+                                    <ul>
+                                        <li>Associations should not engage in activities that threaten public order, morality, or the sovereignty and integrity of India.</li>
+                                        <li>Trade unions can only conduct lawful strikes or protests and must avoid violent or disruptive tactics.</li>
+                                    </ul>
+                                    
+                                    <h4>Legal Protections and Rights:</h4>
+                                    <ul>
+                                        <li>Right to Peaceful Assembly: Members can gather for lawful purposes but must adhere to rules about public order and restrictions in sensitive areas.</li>
+                                        <li>Right to Seek Recognition: Trade unions and associations can seek official recognition under the Trade Unions Act, 1926, to represent member interests.</li>
+                                        <li>Right to Advocate: Associations can advocate for social or political changes within legal boundaries.</li>
+                                    </ul>
+                
+                                    <h4>Restrictions and Penalties:</h4>
+                                    <ul>
+                                        <li>Unlawful Assembly: Engaging in unauthorized gatherings can lead to penalties, including fines or imprisonment under Section 144 of the Criminal Procedure Code.</li>
+                                        <li>Ban on Unlawful Associations: Under the Unlawful Activities (Prevention) Act (UAPA), associations involved in unlawful activities can be banned, and members may face imprisonment and fines.</li>
+                                        <li>Trade Union Restrictions: Trade unions must avoid strikes or protests in essential services, as mandated by the Essential Services Maintenance Act (ESMA), with penalties for violations.</li>
+                                    </ul>
+                                    
+                                    <h4>Fines:</h4>
+                                    <p>Fines vary depending on the nature of the violation. Unlawful gatherings or membership in banned associations can result in significant penalties, potentially exceeding ₹10,000.</p>
+                                    
+                                    <h4>Courts:</h4>
+                                    <ul>
+                                        <li>Jurisdiction: Cases concerning the right to form associations and potential restrictions are generally handled by the High Court, with appeals possible to the Supreme Court.</li>
+                                        <li>Rights During Trial: Members accused of unlawful association activities have the right to legal representation and appeal to higher courts if convicted.</li>
+                                    </ul>
+                
+                                    <h4>Considerations:</h4>
+                                    <ul>
+                                        <li><strong>Exceptions:</strong> Government employees may have restrictions on forming unions to prevent conflict with public interests.</li>
+                                        <li><strong>Legal Defenses:</strong> Defenses include proving peaceful assembly or lawful advocacy in case of wrongful accusations.</li>
+                                    </ul>
+                
+                                    <h4>Appeals:</h4>
+                                    <p>Cases can be appealed to higher courts, depending on the nature of the restriction or penalty imposed.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+
+        <div class="law-card">
+            <h2>Section 22: Right to work, to education, and to engage in any lawful occupation</h2>
+            <p>It guarantees the right to work, education, and lawful occupation.</p>
+            <div class="law-content">
+             
+                            <!-- Nested dropdown for individual terms -->
+                            <div class="term">
+                                <h3>Right to Work</h3>
+                                <div class="term-content">
+                                    <p>The right to work provides individuals the freedom to seek employment, equal opportunities, and the assurance of fair working conditions.</p>
+                
+                                    <h4>Legal Protections:</h4>
+                                    <ul>
+                                        <li><strong>Non-discrimination:</strong> Employers cannot discriminate based on gender, religion, caste, or disability.</li>
+                                        <li><strong>Minimum Wage:</strong> The Minimum Wages Act mandates fair wages for workers across various industries.</li>
+                                        <li><strong>Safe Work Environment:</strong> Employers must provide safe and healthy working conditions as per the Occupational Safety, Health and Working Conditions Code.</li>
+                                    </ul>
+                
+                                    <h4>Penalties for Violations:</h4>
+                                    <ul>
+                                        <li><strong>Failure to Pay Minimum Wage:</strong> Fine up to ₹10,000 or imprisonment up to 6 months for repeat offenses.</li>
+                                        <li><strong>Unsafe Work Environment:</strong> Fine up to ₹1 lakh for non-compliance with safety standards.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                            <div class="term">
+                                <h3>Right to Education</h3>
+                                <div class="term-content">
+                                    <p>The right to education ensures access to free and compulsory education for children aged 6 to 14 under the Right of Children to Free and Compulsory Education Act.</p>
+                
+                                    <h4>Provisions:</h4>
+                                    <ul>
+                                        <li><strong>Free Education:</strong> All children are entitled to free education in government schools.</li>
+                                        <li><strong>No Child Left Behind:</strong> Schools cannot deny admission to any child based on their background or economic status.</li>
+                                        <li><strong>Quality Standards:</strong> Schools must maintain quality teaching standards as per RTE guidelines.</li>
+                                    </ul>
+                
+                                    <h4>Penalties for Violations:</h4>
+                                    <ul>
+                                        <li><strong>Denying Admission:</strong> Penalty of up to ₹25,000 for first offense, ₹50,000 for subsequent offenses.</li>
+                                        <li><strong>Non-compliance with RTE Standards:</strong> School management may face fines and license revocation for repeated non-compliance.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                            <div class="term">
+                                <h3>Right to Engage in Lawful Occupation</h3>
+                                <div class="term-content">
+                                    <h4>Definition:</h4>
+                                    <p>Every citizen has the freedom to engage in any lawful occupation, trade, or business without arbitrary restrictions.</p>
+                
+                                    <h4>Regulations:</h4>
+                                    <ul>
+                                        <li><strong>License Requirements:</strong> Certain trades or businesses may require licenses to ensure compliance with legal and safety standards.</li>
+                                        <li><strong>Fair Competition:</strong> Laws prevent unfair practices like monopolies and encourage a competitive economy.</li>
+                                    </ul>
+                
+                                    <h4>Penalties for Violations:</h4>
+                                    <ul>
+                                        <li><strong>Operating Without a License:</strong> Fine up to ₹50,000 or imprisonment up to 1 year, depending on the severity.</li>
+                                        <li><strong>Unfair Trade Practices:</strong> Fine or penalty as per the Consumer Protection Act if involved in fraud, monopolization, or anti-competitive behavior.</li>
+                                    </ul>
+                
+                                    <h4>Appeals:</h4>
+                                    <p>If an individual's right to engage in lawful occupation is restricted unjustly, they can appeal to the High Court or the Supreme Court.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            
+            </div>
+        </div>
+
+        <div class="law-card">
+            <h2>Section 23: Protection against discrimination in matters of employment</h2>
+            <p>Protection against discrimination in matters of employment and job opportunities.</p>
+            <div class="law-content">
+                
+                
+                            <!-- Nested dropdown for individual terms -->
+                            <div class="term">
+                                <h3>Types of Discrimination</h3>
+                                <div class="term-content">
+                                    <p>Discrimination in employment refers to unfair treatment of individuals based on personal attributes or affiliations unrelated to job performance.</p>
+                                    
+                                    <!-- Detailed content under Types of Discrimination -->
+                                    <h4>Common Forms:</h4>
+                                    <ul>
+                                        <li><strong>Gender Discrimination:</strong> Any unfavorable treatment due to gender, including pay disparity, hiring biases, or promotion inequality.</li>
+                                        <li><strong>Racial or Caste-Based Discrimination:</strong> Treatment or hiring preferences based on race or caste, which can lead to exclusion or lack of opportunity.</li>
+                                        <li><strong>Disability Discrimination:</strong> Not providing reasonable accommodations for employees with disabilities can also be a form of discrimination.</li>
+                                        <li><strong>Religious Discrimination:</strong> Treating employees differently due to religious beliefs or practices.</li>
+                                    </ul>
+                                    
+                                    <h4>Employee Rights:</h4>
+                                    <ul>
+                                        <li>Right to Equal Treatment: All employees have the right to be treated equally in hiring, promotion, and compensation.</li>
+                                        <li>Right to File a Complaint: Employees facing discrimination can lodge a complaint with the employer or a relevant authority, such as the Equal Employment Opportunity Commission (EEOC) or equivalent.</li>
+                                        <li>Right to Compensation: In cases of proven discrimination, employees may seek compensation, including damages or reinstatement if terminated unjustly.</li>
+                                    </ul>
+                                    
+                                    <h4>Employer Obligations:</h4>
+                                    <ul>
+                                        <li>Implement Anti-Discrimination Policies: Employers are required to have policies that prohibit discrimination and promote equality.</li>
+                                        <li>Training Programs: Regular training for employees and management to recognize and prevent discrimination.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="term">
+                                <h3>Punishments for Violating Anti-Discrimination Laws</h3>
+                                <div class="term-content">
+                                    <p>Employers who engage in discriminatory practices or fail to address complaints can face legal penalties.</p>
+                                    
+                                    <h4>Types of Penalties:</h4>
+                                    <ul>
+                                        <li><strong>Monetary Fines:</strong> Employers may be fined for each instance of proven discrimination, with amounts varying by case.</li>
+                                        <li><strong>Compensation to Affected Employees:</strong> Discriminated employees can receive back pay, damages, or reinstatement in their position.</li>
+                                        <li><strong>Licensing Consequences:</strong> In severe cases, an employer’s operating license may be suspended or revoked.</li>
+                                    </ul>
+                                    
+                                    <h4>Court Process:</h4>
+                                    <ul>
+                                        <li>Discrimination cases are often handled in civil courts or labor tribunals, depending on jurisdiction and the specifics of the law.</li>
+                                        <li>Appeals may be made to higher courts if there are grounds, potentially escalating to national or supreme courts in severe cases.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                
+                            <div class="term">
+                                <h3>Prevention and Compliance</h3>
+                                <div class="term-content">
+                                    <h4>Preventive Measures:</h4>
+                                    <ul>
+                                        <li>Ensure regular audits of hiring, pay, and promotion practices to prevent bias.</li>
+                                        <li>Establish clear anti-discrimination policies and provide employees with access to grievance channels.</li>
+                                    </ul>
+                
+                                    <h4>Best Practices for Employees:</h4>
+                                    <ul>
+                                        <li>Report any instances of discrimination to HR or appropriate authorities.</li>
+                                        <li>Know your rights and seek legal assistance if discrimination continues after complaints.</li>
+                                    </ul>
+                
+                                    <h4>Fines and Penalties:</h4>
+                                    <p>Fines for discrimination can vary based on jurisdiction, with additional damages awarded to the employee. Repeated offenses can lead to larger fines and possible revocation of the company’s license to operate.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+              
+            </div>
+        </div>
+
+        <div class="law-card">
+            <h2>Section 24: Prohibition of forced labor</h2>
+            <p>Forcing someone to work without compensation is prohibited.</p>
+            <div class="law-content">
+               
+                                
+                            <!-- Nested dropdown for individual terms -->
+                            <div class="term">
+                                <h3>Definition of Forced Labor</h3>
+                                <div class="term-content">
+                                    <p>Forced labor is any work or service demanded from an individual under the threat of punishment and without voluntary consent. Example: Forcing someone to work under the threat of harm falls under forced labor.</p>
+                                </div>
+                            </div>
+                            <div class="term">
+                                <h3>Punishments and Legal Rights</h3>
+                                <div class="term-content">
+                                    
+                                    <!-- Punishments under Forced Labor -->
+                                    <h4>Punishment:</h4>
+                                    <ul>
+                                        <li><strong>Imprisonment:</strong> Those found guilty of forcing labor can face up to 3 years of imprisonment.</li>
+                                        <li><strong>Fine:</strong> In addition to imprisonment, a fine may be imposed based on the severity and nature of the forced labor.</li>
+                                    </ul>
+                                    
+                                    <h4>Legal Rights of Victims:</h4>
+                                    <ul>
+                                        <li><strong>Right to Compensation:</strong> Victims of forced labor may seek compensation through legal proceedings for any losses or damages caused.</li>
+                                        <li><strong>Right to Legal Representation:</strong> Victims have the right to engage a lawyer or receive legal aid if they cannot afford one.</li>
+                                    </ul>
+                                    
+                                    <h4>Court:</h4>
+                                    <ul>
+                                        <li><strong>Jurisdiction:</strong> Cases related to forced labor are usually handled in a Magistrate’s Court, typically under the Judicial Magistrate First Class (JMFC).</li>
+                                        <li><strong>Non-bailable Offense:</strong> Forced labor is considered a serious and non-bailable offense due to its impact on individual rights and freedom.</li>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                            <div class="term">
+                                <h3>Prohibited Actions</h3>
+                                <div class="term-content">
+                                    
+                                    <h4>What Not to Do:</h4>
+                                    <ul>
+                                        <li>Do not threaten or coerce anyone to work under unfavorable conditions or without pay.</li>
+                                        <li>Do not retain identity documents or restrict an individual’s movement as a means to enforce labor.</li>
+                                    </ul>
+                                    
+                                    <h4>What to Do:</h4>
+                                    <ul>
+                                        <li>Ensure all workers are informed about their rights to refuse work without threat or coercion.</li>
+                                        <li>Provide fair wages, working conditions, and contracts in accordance with labor laws.</li>
+                                        <li>Report any cases of suspected forced labor to the authorities.</li>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+               
+            </div>
+        </div>
+
+        <div class="law-card">
+            <h2>Section 25: Prohibition of human trafficking</h2>
+            <p>Human trafficking in any form is prohibited under the law.</p>
+            .
+            <div class="law-content">
+           
+                            <!-- Nested dropdown for individual terms -->
+                            <div class="term">
+                                <h3>Forms of Human Trafficking</h3>
+                                <div class="term-content">
+                                    <p>Human trafficking may involve labor exploitation, sexual exploitation, forced marriage, or trafficking for organ trade. The law provides strict penalties to address these acts and protect victims.</p>
+                                    
+                                    <!-- Detailed content under Forms of Human Trafficking -->
+                                    <h4>Punishment:</h4>
+                                    <ul>
+                                        <li><strong>Imprisonment:</strong> A person found guilty of human trafficking can face imprisonment ranging from 7 years to life, depending on the severity and nature of the offense.</li>
+                                        <li><strong>Fines:</strong> In addition to imprisonment, heavy fines may be imposed. These fines serve both as punishment and deterrence for engaging in such illegal practices.</li>
+                                        <li><strong>Victim’s Rights:</strong> Victims have the right to safety, confidentiality, medical care, and legal representation. They are protected under various sections that ensure their rehabilitation and reintegration into society.</li>
+                                    </ul>
+                                    
+                                    <h4>Investigative and Legal Process:</h4>
+                                    <ul>
+                                        <li><strong>Police Investigation:</strong> Upon reporting, the police will investigate the case thoroughly. Cases may involve multiple departments, including anti-trafficking units.</li>
+                                        <li><strong>Court Jurisdiction:</strong> Cases of human trafficking are typically tried in Sessions Courts, given the serious nature of the offense.</li>
+                                        <li><strong>Appeals:</strong> Convicted individuals can appeal to higher courts, including the High Court and the Supreme Court, if grounds for appeal are present.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="term">
+                                <h3>Precautions and Reporting</h3>
+                                <div class="term-content">
+                                    <p>Preventive measures include awareness campaigns, educational programs, and monitoring of vulnerable communities to prevent human trafficking at the source.</p>
+                                    
+                                    <!-- Detailed content under Precautions and Reporting -->
+                                    <h4>What to Do:</h4>
+                                    <ul>
+                                        <li><strong>Report Suspicious Activities:</strong> If you suspect someone is being trafficked, report it to local authorities or anti-trafficking helplines.</li>
+                                        <li><strong>Stay Vigilant:</strong> Be cautious of job offers that seem too good to be true, especially those that require relocation without sufficient details.</li>
+                                        <li><strong>Support Victims:</strong> Provide assistance, shelter, or guidance for victims, and help them connect with rehabilitation services.</li>
+                                    </ul>
+                                    
+                                    <h4>What Not to Do:</h4>
+                                    <ul>
+                                        <li><strong>Avoid Unverified Job Offers:</strong> Do not engage with recruiters or employers offering overseas or distant job placements without verifying their legitimacy.</li>
+                                        <li><strong>Do Not Neglect Reporting:</strong> It is important to report any signs of human trafficking to the authorities rather than ignoring it.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+              
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Dropdown functionality
+        const lawCards = document.querySelectorAll('.law-card h2');
+        lawCards.forEach(card => {
+            card.addEventListener('click', () => {
+                card.parentElement.classList.toggle('active');
+            });
+        });
+
+        const termTitles = document.querySelectorAll('.term h3');
+        termTitles.forEach(term => {
+            term.addEventListener('click', () => {
+                term.parentElement.classList.toggle('active');
+            });
+        });
+
+        // Filter function for search
+        function filterLaws() {
+            const input = document.getElementById('law-search').value.toLowerCase();
+            const lawCards = document.querySelectorAll('.law-card');
+
+            lawCards.forEach(card => {
+                const title = card.querySelector('h2').textContent.toLowerCase();
+                card.style.display = title.includes(input) ? '' : 'none';
+            });
+        }
+    </script>
+</body>
+
+</html>
+
+
+
